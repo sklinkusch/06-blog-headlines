@@ -124,6 +124,10 @@ a[href="#video"], a[href="#top"] {
   padding-top: 20px;
 }
 
+.playtitle {
+  opacity: 0.3;
+}
+
 /* Animated gif */
 .giphy {
   text-align: center;
