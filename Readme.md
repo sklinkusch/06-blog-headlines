@@ -2,7 +2,7 @@
 You will create a simple blog page with 3 articles linked to a single post
 
 ### Topics
-HTML: HTML5 Semantic Elements 
+HTML: HTML5 Semantic Elements  
 CSS: border, box-shadow, color, background, linear-gradient, opacity, font, z-index
 
 You should
