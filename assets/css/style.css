@@ -31,9 +31,10 @@ body {
   background-color: rgba(255,255,255,0.8);
   width: 60%;
   height: 250px;
-  margin: -2px auto 0 auto;
+  margin: 0 auto 0 auto;
   padding: 20px 0;
   box-shadow: 0px 6px 3px #444444;
+  position: relative;
 }
 
 .blogpost:first-of-type {
@@ -48,11 +49,13 @@ body {
 .post2 {
   border-left: 3px blue solid;
   z-index: 3;
+  bottom: 10px;
 }
 
 .post3 {
   border-left: 3px red solid;
   z-index: 2;
+  bottom: 20px;
 }
 
 /* Post wrapper */
