@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lato-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lato-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lato-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lato-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lato-v14-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+  background: linear-gradient(325deg, #006ac5, #49e46a);
+  font-family: 'Lato';
+}
+
+.play {
+  width: 1em;
+  position: relative;
+  top: 3px;
+}
+
+.blogpost {
+  background: white;
+  width: 60%;
+  height: 250px;
+  margin: -2px auto 0 auto;
+  padding: 20px 0;
+  box-shadow: 0px 6px 3px #888888;
+}
+
+.post {
+  width: 90%;
+  margin: 20px auto;
+  position: relative;
+  box-shadow: 0px 6px 3px #888888;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  width: 65%
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  width: 30%;
+}
+
+.post1 {
+  border-left: 3px chocolate solid;
+  z-index: 4;
+}
+
+.post2 {
+  border-left: 3px blue solid;
+  z-index: 3;
+}
+
+.post3 {
+  border-left: 3px red solid;
+  z-index: 2;
+}
+
+a[href="#"] {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+
+.category {
+  margin-bottom: 15px;
+}
+
+.posttitle {
+  margin-bottom: 15px;
+}
