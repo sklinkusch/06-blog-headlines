@@ -31,12 +31,12 @@ body {
 }
 
 .blogpost {
-  background: white;
+  background-color: rgba(255,255,255,0.8);
   width: 60%;
   height: 250px;
   margin: -2px auto 0 auto;
   padding: 20px 0;
-  box-shadow: 0px 6px 3px #888888;
+  box-shadow: 0px 6px 3px #444444;
 }
 
 .post {
@@ -73,8 +73,9 @@ body {
   z-index: 2;
 }
 
-a[href="#"] {
+a[href="#video"], a[href="#top"] {
   font-weight: bold;
+  text-decoration: none;
 }
 
 footer {
@@ -88,4 +89,30 @@ footer {
 
 .posttitle {
   margin-bottom: 15px;
+}
+
+.video {
+  background: white;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 400px;
+}
+
+.video header, .video main, .video footer {
+  width: 90%;
+  margin: 20px auto 10px auto;
+}
+
+.videoline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.giphy {
+  text-align: center;
+}
+
+.giphy img {
+  width: 70%;
 }
