@@ -1,10 +1,11 @@
+/* Remove Browser styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* lato-regular - latin */
+/* Including webfont locally: lato-regular - latin */
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -18,19 +19,14 @@
        url('../fonts/lato-v14-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
 }
 
-
+/* Body Settings */
 body {
   background: linear-gradient(325deg, #006ac5, #49e46a);
   height: 2000px;
   font-family: 'Lato';
 }
 
-.play {
-  width: 1em;
-  position: relative;
-  top: 3px;
-}
-
+/* Adding styles for blogpost list */
 .blogpost {
   background-color: rgba(255,255,255,0.8);
   width: 60%;
@@ -42,25 +38,6 @@ body {
 
 .blogpost:first-of-type {
   margin-top: 40px;
-}
-
-.post {
-  width: 90%;
-  margin: 20px auto;
-  position: relative;
-  box-shadow: 0px 6px 3px #888888;
-}
-
-.left {
-  position: absolute;
-  left: 0;
-  width: 65%
-}
-
-.right {
-  position: absolute;
-  right: 0;
-  width: 30%;
 }
 
 .post1 {
@@ -78,16 +55,29 @@ body {
   z-index: 2;
 }
 
-a[href="#video"], a[href="#top"] {
-  font-weight: bold;
-  text-decoration: none;
+/* Post wrapper */
+.post {
+  width: 90%;
+  margin: 20px auto;
+  position: relative;
+  box-shadow: 0px 6px 3px #888888;
 }
 
-footer {
-  margin-top: 15px;
-  padding-bottom: 20px;
+/* Left section */
+.left {
+  position: absolute;
+  left: 0;
+  width: 65%
 }
 
+/* Right section */
+.right {
+  position: absolute;
+  right: 0;
+  width: 30%;
+}
+
+/* Header */
 .category {
   margin-bottom: 15px;
 }
@@ -96,6 +86,25 @@ footer {
   margin-bottom: 15px;
 }
 
+
+/* Footer */
+footer {
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+
+.play {
+  width: 1em;
+  position: relative;
+  top: 3px;
+}
+
+a[href="#video"], a[href="#top"] {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Video section */
 .video {
   background: white;
   width: 60%;
@@ -115,6 +124,7 @@ footer {
   padding-top: 20px;
 }
 
+/* Animated gif */
 .giphy {
   text-align: center;
   margin-bottom: 20px;
