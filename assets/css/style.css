@@ -112,10 +112,12 @@ footer {
 .videoline {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .giphy {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .giphy img {
