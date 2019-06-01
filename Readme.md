@@ -1,4 +1,19 @@
 # My first blog design
+
+This exercise was performed by Stefan Klinkusch at Digital Career Institute in Berlin, Germany using HTML and CSS.
+
+## Features
+
+It features
+- a background with a color gradient
+- three blog posts with a small overlap
+- an additional video section with an animated gif
+
+## Screenshot
+
+![Screenshot](./Screenshot.png)
+
+## Original Task
 You will create a simple blog page with 3 articles linked to a single post
 
 ### Topics
